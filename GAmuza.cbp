@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GAmuza" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;src/ofxKeyMap/;src/ofxGLEditor/;src/ofxFft/;src/ofxStringEncoders/;src/;src/ofxKeyMap/;src/ofxGLEditor/;src/ofxFft/;src/ofxStringEncoders/;addons/ofxOpenCv/src/;src/;src/ofxKeyMap/;src/ofxGLEditor/;src/ofxFft/;src/ofxStringEncoders/;addons/;src/ofxControlPanel/;addons/;src/ofxControlPanel/src/;addons/ofxXmlSettings/;src/;src/ofxKeyMap/;src/ofxGLEditor/;src/ofxFft/;src/ofxStringEncoders/;addons/ofxXmlSettings/src/;src/;src/ofxKeyMap/;src/ofxGLEditor/;src/ofxFft/;src/ofxStringEncoders/;addons/ofxOsc/;src/;src/ofxKeyMap/;src/ofxGLEditor/;src/ofxFft/;src/ofxStringEncoders/;addons/ofxOsc/src/;src/;src/ofxKeyMap/;src/ofxGLEditor/;src/ofxFft/;src/ofxStringEncoders/;src/ofxAudioSample/;build config/;src/ofxCvKalman/;src/ofxFileDialog/;src/ofxGamuza/;src/ofxHalftoner/;src/ofxMissing/;src/ofxOpenCVBlobTrackingExt/;src/ofxOpenNI/;src/ofxAudioSample/src/;src/ofxFileDialog/src/;src/ofxGamuza/src/;src/ofxGamuza/src/gamuza/;src/ofxHalftoner/src/;src/ofxMissing/src/;src/ofxOpenCVBlobTrackingExt/src/;src/ofxStringEncoders/src/;src/ofxGamuza/src/audioAnalysis/;src/ofxGamuza/src/audioSequencing/;src/ofxGamuza/src/audioSynthesis/;src/ofxGamuza/src/imageAnalysis/;src/ofxGamuza/src/math/;src/ofxGamuza/src/midiUtils/;src/ofxGamuza/src/randomUtils/;src/ofxGamuza/src/sourceTracking/;addons/ofxLua/;addons/ofxLua/src/;src/ofxFft/src/;src/ofxOpenNI/src/;src/ofxStringEncoders/src/lib/;src/ofxStringEncoders/src/lib/stringencoder/;src/ofxGLEditor/src/;src/ofxKeyMap/src/;addons/ofxBullet/;addons/ofxBullet/src/;addons/ofxBullet/src/joints/;addons/ofxBullet/src/render/;addons/ofxBullet/src/shapes/;addons/ofxBullet/src/events/;addons/ofxFenster/;addons/ofxFenster/src/;src/ofxMidi/;src/ofxMidi/src/;src/ofxMidi/libs/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/GAmuza_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/GAmuza" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="../../../addons/ofxBullet/src/events/ofxBulletCollisionData.h">
+			<Option virtualFolder="addons/ofxBullet/src/events/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/events/ofxBulletMousePickEvent.h">
+			<Option virtualFolder="addons/ofxBullet/src/events/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/events/ofxBulletRaycastData.h">
+			<Option virtualFolder="addons/ofxBullet/src/events/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/joints/ofxBulletJoint.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/joints/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/joints/ofxBulletJoint.h">
+			<Option virtualFolder="addons/ofxBullet/src/joints/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/ofxBullet.h">
+			<Option virtualFolder="addons/ofxBullet/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/ofxBulletConstants.h">
+			<Option virtualFolder="addons/ofxBullet/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/ofxBulletUserData.h">
+			<Option virtualFolder="addons/ofxBullet/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/ofxBulletUtils.h">
+			<Option virtualFolder="addons/ofxBullet/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/ofxBulletWorldRigid.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/ofxBulletWorldRigid.h">
+			<Option virtualFolder="addons/ofxBullet/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/render/GLDebugDrawer.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/render/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/render/GLDebugDrawer.h">
+			<Option virtualFolder="addons/ofxBullet/src/render/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/render/btShapeHull.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/render/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/render/btShapeHull.h">
+			<Option virtualFolder="addons/ofxBullet/src/render/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletBaseShape.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletBaseShape.h">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletBox.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletBox.h">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletCapsule.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletCapsule.h">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletCone.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletCone.h">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletCustomShape.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletCustomShape.h">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletCylinder.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletCylinder.h">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletSphere.cpp">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxBullet/src/shapes/ofxBulletSphere.h">
+			<Option virtualFolder="addons/ofxBullet/src/shapes/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxFenster/src/ofxFenster.cpp">
+			<Option virtualFolder="addons/ofxFenster/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxFenster/src/ofxFenster.h">
+			<Option virtualFolder="addons/ofxFenster/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxFenster/src/ofxFensterManager.cpp">
+			<Option virtualFolder="addons/ofxFenster/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxFenster/src/ofxFensterManager.h">
+			<Option virtualFolder="addons/ofxFenster/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxLua/src/ofxLua.cpp">
+			<Option virtualFolder="addons/ofxLua/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxLua/src/ofxLua.h">
+			<Option virtualFolder="addons/ofxLua/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxLua/src/ofxLuaWrapper.h">
+			<Option virtualFolder="addons/ofxLua/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvBlob.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvColorImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvConstants.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvContourFinder.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvFloatImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvHaarFinder.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvMain.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxCvShortImage.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenCv/src/ofxOpenCv.h">
+			<Option virtualFolder="addons/ofxOpenCv/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOsc.h">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscArg.h">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscBundle.cpp">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscBundle.h">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscMessage.cpp">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscMessage.h">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscReceiver.cpp">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscReceiver.h">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscSender.cpp">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOsc/src/ofxOscSender.h">
+			<Option virtualFolder="addons/ofxOsc/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp">
+			<Option virtualFolder="addons/ofxXmlSettings/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/src/ofxXmlSettings.h">
+			<Option virtualFolder="addons/ofxXmlSettings/src/" />
+		</Unit>
+		<Unit filename="addons.make">
+			<Option virtualFolder="build config/" />
+		</Unit>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config/" />
+		</Unit>
+		<Unit filename="src/gamuza.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/gamuza.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/gamuzaGetters.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofxAudioSample/src/ofxAudioSample.cpp">
+			<Option virtualFolder="src/ofxAudioSample/src/" />
+		</Unit>
+		<Unit filename="src/ofxAudioSample/src/ofxAudioSample.h">
+			<Option virtualFolder="src/ofxAudioSample/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiBaseObject.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiBaseObject.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiCallback.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiCallback.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiCallbackValue.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiCallbackValue.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiColor.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiColor.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiCustomImpl.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiIncludes.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTextBase.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTextBase.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiType2DSlider.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiType2DSlider.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeButtonSlider.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeButtonSlider.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeChartPlotter.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeChartPlotter.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeCustom.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeCustom.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeDrawable.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeDrawable.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeFileLister.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeFileLister.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeKnob.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeKnob.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeLabel.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeLabel.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeLogger.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeLogger.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeMultiToggle.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeMultiToggle.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypePanel.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypePanel.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeSlider.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeSlider.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeText.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeText.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeTextDropDown.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeTextDropDown.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeTextInput.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeTextInput.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeToggle.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeToggle.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeVairableLister.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeVairableLister.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeVideo.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiTypeVideo.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiValue.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiValue.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiVariablePointer.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/guiXmlValue.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/ofxControlPanel.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/ofxControlPanel.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/simpleColor.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/simpleColor.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/simpleFileLister.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/simpleFileLister.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/simpleLogger.cpp">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxControlPanel/src/simpleLogger.h">
+			<Option virtualFolder="src/ofxControlPanel/src/" />
+		</Unit>
+		<Unit filename="src/ofxCvKalman/ofxCvKalman.cpp">
+			<Option virtualFolder="src/ofxCvKalman/" />
+		</Unit>
+		<Unit filename="src/ofxCvKalman/ofxCvKalman.h">
+			<Option virtualFolder="src/ofxCvKalman/" />
+		</Unit>
+		<Unit filename="src/ofxFft/src/ofxFft.cpp">
+			<Option virtualFolder="src/ofxFft/src/" />
+		</Unit>
+		<Unit filename="src/ofxFft/src/ofxFft.h">
+			<Option virtualFolder="src/ofxFft/src/" />
+		</Unit>
+		<Unit filename="src/ofxFft/src/ofxFftBasic.cpp">
+			<Option virtualFolder="src/ofxFft/src/" />
+		</Unit>
+		<Unit filename="src/ofxFft/src/ofxFftBasic.h">
+			<Option virtualFolder="src/ofxFft/src/" />
+		</Unit>
+		<Unit filename="src/ofxFileDialog/src/ofxFileDialog.cpp">
+			<Option virtualFolder="src/ofxFileDialog/src/" />
+		</Unit>
+		<Unit filename="src/ofxFileDialog/src/ofxFileDialog.h">
+			<Option virtualFolder="src/ofxFileDialog/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/ClipBoard.cpp">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/ClipBoard.h">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/GLEditor.cpp">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/GLEditor.h">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/GLFileDialog.cpp">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/GLFileDialog.h">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/PolyGlyph.cpp">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/PolyGlyph.h">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/Unicode.cpp">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/Unicode.h">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/ofxGLEditor.cpp">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGLEditor/src/ofxGLEditor.h">
+			<Option virtualFolder="src/ofxGLEditor/src/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioAnalysis/audioInputChannel.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/audioAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioAnalysis/audioInputChannel.h">
+			<Option virtualFolder="src/ofxGamuza/src/audioAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSequencing/instrumentSequencer.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/audioSequencing/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSequencing/instrumentSequencer.h">
+			<Option virtualFolder="src/ofxGamuza/src/audioSequencing/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/audioModule.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/audioModule.h">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/gaAmplifier.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/gaAmplifier.h">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/gaDsp.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/gaDsp.h">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/gaOscillator.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/gaOscillator.h">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/notesUtils.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/audioSynthesis/notesUtils.h">
+			<Option virtualFolder="src/ofxGamuza/src/audioSynthesis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaArduino.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaAudio.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaConstants.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaFBO.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaGui.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaIncludes.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaInfo.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaMain.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaMain.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaOSC.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaOutput.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/gamuza/gamuzaWrapper.h">
+			<Option virtualFolder="src/ofxGamuza/src/gamuza/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/contourNormals.h">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/contourSimplify.h">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/convexHull.h">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/matrixAreas.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/matrixAreas.h">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/ofContourAnalysis.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/ofContourAnalysis.h">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/ofxCvOpticalFlowBM.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/ofxCvOpticalFlowBM.h">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/ofxCvOpticalFlowLK.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/ofxCvOpticalFlowLK.h">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/imageAnalysis/polylineSimplify.h">
+			<Option virtualFolder="src/ofxGamuza/src/imageAnalysis/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/math/adaptiveSimpson.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/math/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/math/adaptiveSimpson.h">
+			<Option virtualFolder="src/ofxGamuza/src/math/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/math/gaussian.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/math/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/math/gaussian.h">
+			<Option virtualFolder="src/ofxGamuza/src/math/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/randomUtils/randomUtils.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/randomUtils/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/randomUtils/randomUtils.h">
+			<Option virtualFolder="src/ofxGamuza/src/randomUtils/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/sourceTracking/openniTracking.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/sourceTracking/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/sourceTracking/openniTracking.h">
+			<Option virtualFolder="src/ofxGamuza/src/sourceTracking/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/sourceTracking/sourceTracking.cpp">
+			<Option virtualFolder="src/ofxGamuza/src/sourceTracking/" />
+		</Unit>
+		<Unit filename="src/ofxGamuza/src/sourceTracking/sourceTracking.h">
+			<Option virtualFolder="src/ofxGamuza/src/sourceTracking/" />
+		</Unit>
+		<Unit filename="src/ofxHalftoner/src/ofxHalftoner.cpp">
+			<Option virtualFolder="src/ofxHalftoner/src/" />
+		</Unit>
+		<Unit filename="src/ofxHalftoner/src/ofxHalftoner.h">
+			<Option virtualFolder="src/ofxHalftoner/src/" />
+		</Unit>
+		<Unit filename="src/ofxKeyMap/src/ofxKeyMap.cpp">
+			<Option virtualFolder="src/ofxKeyMap/src/" />
+		</Unit>
+		<Unit filename="src/ofxKeyMap/src/ofxKeyMap.h">
+			<Option virtualFolder="src/ofxKeyMap/src/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/libs/RtError.h">
+			<Option virtualFolder="src/ofxMidi/libs/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/libs/RtMidi.cpp">
+			<Option virtualFolder="src/ofxMidi/libs/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/libs/RtMidi.h">
+			<Option virtualFolder="src/ofxMidi/libs/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/src/ofxMidi.h">
+			<Option virtualFolder="src/ofxMidi/src/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/src/ofxMidiConstants.h">
+			<Option virtualFolder="src/ofxMidi/src/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/src/ofxMidiEvents.h">
+			<Option virtualFolder="src/ofxMidi/src/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/src/ofxMidiIn.cpp">
+			<Option virtualFolder="src/ofxMidi/src/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/src/ofxMidiIn.h">
+			<Option virtualFolder="src/ofxMidi/src/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/src/ofxMidiOut.cpp">
+			<Option virtualFolder="src/ofxMidi/src/" />
+		</Unit>
+		<Unit filename="src/ofxMidi/src/ofxMidiOut.h">
+			<Option virtualFolder="src/ofxMidi/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/Date.cpp">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/Date.h">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/INI.cpp">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/INI.h">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/RecursiveFileList.cpp">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/RecursiveFileList.h">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/Utils.cpp">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/Utils.h">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxMissing/src/ofxMissing.h">
+			<Option virtualFolder="src/ofxMissing/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenCVBlobTrackingExt/src/ofxCvBlobTracker.cpp">
+			<Option virtualFolder="src/ofxOpenCVBlobTrackingExt/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenCVBlobTrackingExt/src/ofxCvBlobTracker.h">
+			<Option virtualFolder="src/ofxOpenCVBlobTrackingExt/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenCVBlobTrackingExt/src/ofxCvConstants_Track.h">
+			<Option virtualFolder="src/ofxOpenCVBlobTrackingExt/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenCVBlobTrackingExt/src/ofxCvTrackedBlob.h">
+			<Option virtualFolder="src/ofxOpenCVBlobTrackingExt/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxDepthGenerator.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxDepthGenerator.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxGestureGenerator.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxGestureGenerator.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxHandGenerator.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxHandGenerator.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxHardwareDriver.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxHardwareDriver.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxIRGenerator.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxIRGenerator.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxImageGenerator.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxImageGenerator.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxOpenNI.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxOpenNIContext.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxOpenNIContext.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxOpenNIMacros.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxOpenNIRecorder.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxOpenNIRecorder.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxTrackedHand.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxTrackedHand.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxTrackedUser.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxTrackedUser.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxUserGenerator.cpp">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxOpenNI/src/ofxUserGenerator.h">
+			<Option virtualFolder="src/ofxOpenNI/src/" />
+		</Unit>
+		<Unit filename="src/ofxStringEncoders/src/lib/stringencoders/modp_b64.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="src/ofxStringEncoders/src/lib/stringencoder/" />
+		</Unit>
+		<Unit filename="src/ofxStringEncoders/src/lib/stringencoders/modp_b64.h">
+			<Option virtualFolder="src/ofxStringEncoders/src/lib/stringencoder/" />
+		</Unit>
+		<Unit filename="src/ofxStringEncoders/src/lib/stringencoders/modp_b64_data.h">
+			<Option virtualFolder="src/ofxStringEncoders/src/lib/stringencoder/" />
+		</Unit>
+		<Unit filename="src/ofxStringEncoders/src/ofxStringEncoders.cpp">
+			<Option virtualFolder="src/ofxStringEncoders/src/" />
+		</Unit>
+		<Unit filename="src/ofxStringEncoders/src/ofxStringEncoders.h">
+			<Option virtualFolder="src/ofxStringEncoders/src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

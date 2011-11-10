@@ -1,0 +1,34 @@
+//
+// Pass 1 vertex shader for deferred shading
+//
+// Author: Hugh Malan
+//
+// Copyright (c) 2003-2006: 3Dlabs, Inc.
+//
+// See 3Dlabs-License.txt for license information
+//
+
+uniform vec3  CameraPos;
+uniform vec3  CameraDir;
+uniform float DepthNear;
+uniform float DepthFar;
+
+varying float CameraDepth;  // normalized camera depth
+varying vec2  TexCoord;
+
+void main()
+{
+    // offset = vector to vertex from camera's position
+    vec3 offset = (gl_Vertex.xyz / gl_Vertex.w) - CameraPos;
+
+    // z = distance from vertex to camera plane
+    float z = -dot(offset, CameraDir);
+
+    // Depth from vertex to camera, mapped to [0,1]
+    CameraDepth = (z - DepthNear) / (DepthFar - DepthNear);
+
+    // typical interpolated coordinate for texture lookup
+    TexCoord = gl_MultiTexCoord0.xy;
+
+    gl_Position = ftransform();
+}

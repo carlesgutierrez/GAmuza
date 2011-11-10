@@ -1,0 +1,26 @@
+
+-- empty Example
+
+grayPix = {}
+tex = of.texture()
+function setup()
+    tex:allocate(CAPTURE_W,CAPTURE_H,GL_LUMINANCE)
+    for i=0, CAPTURE_PIX do
+        grayPix[i] = of.randomuf() * 255
+    end    
+end
+
+function update()
+    --tex:loadData(grayPix,CAPTURE_W,CAPTURE_H,GL_LUMINANCE)
+end
+
+function draw()
+    ga.background(0.0,1.0)
+end
+
+
+
+
+
+
+

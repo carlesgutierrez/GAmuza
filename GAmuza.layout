@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="../../../addons/ofxBullet/src/shapes/ofxBulletCone.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="233" topLine="7" />
+	</File>
+	<File name="../../../addons/ofxFenster/src/ofxFenster.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="10401" topLine="222" />
+	</File>
+	<File name="../../../addons/ofxFenster/src/ofxFenster.h" open="0" top="0" tabpos="0">
+		<Cursor position="4543" topLine="168" />
+	</File>
+	<File name="../../../addons/ofxFenster/src/ofxFensterManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="80" />
+	</File>
+	<File name="../../../addons/ofxLua/src/ofxLua.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="21" />
+	</File>
+	<File name="../../../addons/ofxLua/src/ofxLua.h" open="0" top="0" tabpos="0">
+		<Cursor position="571" topLine="0" />
+	</File>
+	<File name="../../../addons/ofxLua/src/ofxLuaWrapper.h" open="0" top="0" tabpos="0">
+		<Cursor position="515" topLine="0" />
+	</File>
+	<File name="config.make" open="1" top="0" tabpos="1">
+		<Cursor position="1187" topLine="52" />
+	</File>
+	<File name="src/gamuza.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4845" topLine="131" />
+	</File>
+	<File name="src/gamuza.h" open="0" top="0" tabpos="0">
+		<Cursor position="3023" topLine="49" />
+	</File>
+	<File name="src/gamuzaGetters.h" open="0" top="0" tabpos="3">
+		<Cursor position="131" topLine="0" />
+	</File>
+	<File name="src/main.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="512" topLine="0" />
+	</File>
+	<File name="src/ofxControlPanel/src/guiCallbackValue.h" open="0" top="0" tabpos="0">
+		<Cursor position="2093" topLine="104" />
+	</File>
+	<File name="src/ofxControlPanel/src/guiTypePanel.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6801" topLine="245" />
+	</File>
+	<File name="src/ofxControlPanel/src/ofxControlPanel.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="38421" topLine="1334" />
+	</File>
+	<File name="src/ofxFileDialog/src/ofxFileDialog.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2329" topLine="125" />
+	</File>
+	<File name="src/ofxFileDialog/src/ofxFileDialog.h" open="0" top="0" tabpos="2">
+		<Cursor position="515" topLine="0" />
+	</File>
+	<File name="src/ofxGLEditor/src/ClipBoard.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2042" topLine="39" />
+	</File>
+	<File name="src/ofxGLEditor/src/ClipBoard.h" open="0" top="0" tabpos="2">
+		<Cursor position="297" topLine="0" />
+	</File>
+	<File name="src/ofxGLEditor/src/GLEditor.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="755" topLine="0" />
+	</File>
+	<File name="src/ofxGLEditor/src/GLFileDialog.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="14" />
+	</File>
+	<File name="src/ofxGLEditor/src/ofxGLEditor.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="5999" topLine="217" />
+	</File>
+	<File name="src/ofxGLEditor/src/ofxGLEditor.h" open="0" top="0" tabpos="0">
+		<Cursor position="818" topLine="7" />
+	</File>
+	<File name="src/ofxGamuza/src/audioAnalysis/audioInputChannel.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="14450" topLine="512" />
+	</File>
+	<File name="src/ofxGamuza/src/audioAnalysis/audioInputChannel.h" open="0" top="0" tabpos="0">
+		<Cursor position="517" topLine="0" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaConstants.h" open="0" top="0" tabpos="0">
+		<Cursor position="118" topLine="0" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaFBO.h" open="0" top="0" tabpos="0">
+		<Cursor position="166" topLine="237" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaGui.h" open="0" top="0" tabpos="2">
+		<Cursor position="66196" topLine="1524" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaIncludes.h" open="0" top="0" tabpos="1">
+		<Cursor position="686" topLine="7" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaInfo.h" open="0" top="0" tabpos="0">
+		<Cursor position="877" topLine="0" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaMain.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="11742" topLine="54" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaMain.h" open="0" top="0" tabpos="4">
+		<Cursor position="677" topLine="2" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaOutput.h" open="0" top="0" tabpos="0">
+		<Cursor position="426" topLine="0" />
+	</File>
+	<File name="src/ofxGamuza/src/gamuza/gamuzaWrapper.h" open="0" top="0" tabpos="2">
+		<Cursor position="831" topLine="9" />
+	</File>
+	<File name="src/ofxGamuza/src/imageAnalysis/matrixAreas.h" open="0" top="0" tabpos="0">
+		<Cursor position="115" topLine="0" />
+	</File>
+	<File name="src/ofxGamuza/src/sourceTracking/openniTracking.h" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="0" />
+	</File>
+	<File name="src/ofxGamuza/src/sourceTracking/sourceTracking.h" open="0" top="0" tabpos="0">
+		<Cursor position="907" topLine="0" />
+	</File>
+	<File name="src/ofxKeyMap/src/ofxKeyMap.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1166" topLine="21" />
+	</File>
+	<File name="src/ofxKeyMap/src/ofxKeyMap.h" open="0" top="0" tabpos="0">
+		<Cursor position="469" topLine="9" />
+	</File>
+	<File name="src/ofxOpenCVBlobTrackingExt/src/ofxCvBlobTracker.h" open="0" top="0" tabpos="0">
+		<Cursor position="662" topLine="9" />
+	</File>
+	<File name="src/ofxOpenCVBlobTrackingExt/src/ofxCvConstants_Track.h" open="0" top="0" tabpos="0">
+		<Cursor position="180" topLine="0" />
+	</File>
+	<File name="src/ofxOpenCVBlobTrackingExt/src/ofxCvTrackedBlob.h" open="0" top="0" tabpos="0">
+		<Cursor position="279" topLine="2" />
+	</File>
+	<File name="src/ofxOpenNI/src/ofxOpenNIContext.h" open="0" top="0" tabpos="2">
+		<Cursor position="57" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
